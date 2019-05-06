@@ -1,0 +1,26 @@
+ul {
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 140px;
+  border: 1px solid black;
+  box-shadow: 2px 4px #444444;
+}
+
+ul:first-of-type {
+  /*margin-top: 5%;*/
+}
+
+ul:nth-child(even) {
+  background: lightgreen;
+}
+ul:nth-child(odd) {
+  background: lightblue;
+}
+
+span {
+  font-weight: bold;
+}

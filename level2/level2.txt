@@ -1,0 +1,25 @@
+1. It is short for Document Object Model. It is an object that is created when the page is loaded.
+   It is sort of like a family tree, but instead of family members, it consists of Objects.
+   The DOM is usally used in the client side with JavaScript and CSS.
+
+2. createElement(), querySelector() and addEventListener()
+
+3. A asynchrounous call does not wait for the API call to return. It continues
+   execution in our program, and when the call returns from a server it executes a "callback" function.
+
+4. The sources tab can be used for debugging JavaScript code.
+   You can make breakpoints and test different parts of the code. You can also edit Javascript and CSS.
+   You can also use it to explore and view your files.
+
+5. A Promise is a proxy for a value that we might not know at the time it is created.
+   It lets asynchronous methods return values like synchronous methods,
+   instead of returning the final value right away.
+   A promise can be three different states: pending, fulfilled or rejected.
+
+6. API stands for Application Programming Interface. It is a set of protocols and tools for building software applications.
+   An API allows applications to communicate to each other.
+
+7. A JavaScript event can be a e.g: A mouse click, A keyboard button being pushed or the DOM being loaded.
+   One can make a function that listens for a specific event, and then executes a function.
+
+8. The event is first captured and handled by the innermost element and it is then propagated to the parent elements and all the way up the other ancestors.
